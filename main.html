@@ -42,3 +42,25 @@
       font-family: 'JetBrains Mono', monospace;
       font-weight: 600;
       font-size: 1.5rem;
+      color: var(--accent);
+    }
+    .tagline { font-size: 0.8rem; color: var(--text-dim); margin-top: 0.2rem; }
+    .header-right { display: flex; align-items: center; gap: 0.75rem; }
+    .addr { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--green); max-width: 140px; overflow: hidden; text-overflow: ellipsis; }
+    input.contract { width: 200px; padding: 0.4rem 0.6rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; background: var(--bg-panel); border: 1px solid var(--border); color: var(--text); border-radius: 4px; }
+    .btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--border);
+      background: var(--bg-panel);
+      color: var(--text);
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .btn.primary { background: var(--accent-dim); border-color: var(--accent); color: #fff; }
+    .btn.primary:hover { filter: brightness(1.1); }
+    .stats { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem; font-size: 0.85rem; }
+    .stats span { color: var(--text-dim); }
